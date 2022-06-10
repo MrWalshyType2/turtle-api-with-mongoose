@@ -18,6 +18,8 @@ app.use('/turtle', turtleRouter);
 // error handling middleware
 // - first param is always the error
 app.use(function (error, request, response, next) {
+    if (error.name === 'ValidationError') error.statusCode = 400;
+
     response.status(error.statusCode || 500)
             .send(error.message || "Something went wrong...");
 });
