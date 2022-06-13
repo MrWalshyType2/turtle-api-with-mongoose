@@ -1,0 +1,103 @@
+{
+    "_id": "62a3214d4074b7da8cfb8cd5",
+    "size": "MEDIUM",
+    "colour": "RED",
+    "snappy": true,
+    "species": "leatherback",
+    "doesKungFu": true,
+    "phoneNumbers": {
+        "shellPhone": {
+            "number": 89089898
+        },
+        "workShell": {
+            "number": 98908987
+        }
+    },
+    "born": "1989-05-22T00:00:00.000Z",
+    "__v": 0,
+    "shellbookFriends": [
+        "62a3214d4074b7da8cfb8cd5",
+        "62a3214d4074b7da8cfb8cd6",
+        "62a3214d4074b7da8cfb8cd7"
+    ],
+    "mobileNumbers": [
+        {
+            "title": "home",
+            "mobile": 980989,
+            "landline": 98908098
+        },
+        {
+            "title": "work",
+            "mobile": 980989,
+            "landline": 98908098
+        },
+        {
+            "title": "home-office",
+            "mobile": 980989,
+            "landline": 98908098
+        }
+    ]
+}
+
+
+
+// Blog Posts
+{
+    "_id": "62a3214d4074b7da8cfb8cd5",
+    "title": "jjjhiuahisdiohfiu",
+    "content": "9ujsfadsuifhaioush "
+}
+
+// Comments
+{
+    "_id": "u9843ur98u498ur43u84",
+    "content": "8u43r98u4398u948ru98",
+    "images": [],
+    "blogId": "62a3214d4074b7da8cfb8cd5"
+}
+
+
+
+
+// turtles
+{
+    "_id": "62a3214d4074b7da8cfb8cd5",
+    "size": "MEDIUM",
+    "colour": "RED",
+    "snappy": true,
+    "species": "leatherback",
+    "doesKungFu": true,
+    "addresses": [
+        "62a3214d4074b7da8cfb8c44",
+        "62a3214d4074b7da8cfb8c45",
+        "62a3214d4074b7da8cfb8c46"
+    ]
+}
+
+// addresses
+[
+    {
+        "_id": "62a3214d4074b7da8cfb8c44",
+        "street no": 88,
+        "street": "some street",
+        "turtles": [
+            "62a3214d4074b7da8cfb8cd5"
+        ]
+    },
+    {
+        "_id": "62a3214d4074b7da8cfb8c45",
+        "street no": 89,
+        "street": "some street",
+        "turtles": [
+            "62a3214d4074b7da8cfb8cd5"
+        ]
+    },
+    {
+        "_id": "62a3214d4074b7da8cfb8c46",
+        "street no": 90,
+        "street": "some street",
+        "turtles": [
+            "62a3214d4074b7da8cfb8cd5"
+        ]
+    }
+]

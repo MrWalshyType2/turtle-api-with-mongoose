@@ -25,7 +25,15 @@ const turtleSchema = new Schema({
     born: {
         type: Date,
         required: [true, 'Birth date is required']
-    }
+    },
+    addresses: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Address',
+            unique: true,
+            select: false // don't get the data in the database by default
+        }
+    ]
 });
 
 const Turtle = mongoose.model('Turtle', turtleSchema);
